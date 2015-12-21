@@ -9,6 +9,7 @@
         <link rel = "shortcut icon" href = "{% static 'css/icon.png' %}">
     </head>
     <body>
+        <div class = "background">
         <div class="page-header">
             <a href="{% url 'blog.views.post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             <h1><a href="/">ArBell блог</a></h1>
@@ -20,6 +21,7 @@
                     {% endblock %}
                 </div>
             </div>
+        </div>
         </div>
     </body>
 </html>
